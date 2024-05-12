@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { logos, socialMediaUrl } from "../Details";
-import { navLinks } from "../constants";
+import { logos, socialMediaUrl } from "../constants/Data";
+import { navLinks } from "../constants/Data";
+import { activeContext } from "../context/ActiveContext";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [active, setActive] = useState("");
   const { linkdein, github, twitter } = socialMediaUrl;
+  let { active, setActive } = useContext(activeContext);
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -25,7 +26,7 @@ function Header() {
           />
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer md:hidden">
-          <i class="fa-solid fa-bars text-secondary text-2xl"></i>
+          <i className="fa-solid fa-bars text-secondary text-2xl"></i>
         </div>
       </div>
       <nav
@@ -44,7 +45,7 @@ function Header() {
               <NavLink
                 to={`/${nav.id}`}
                 onClick={() => {
-                  toggleClass();
+                  setIsOpen(false);
                   setActive(nav.title);
                 }}
               >
@@ -57,17 +58,17 @@ function Header() {
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
             <a href={twitter} target="_blank" rel="noreferrer noopener">
-              <i class="fa-brands fa-twitter text-secondary text-2xl"></i>
+              <i className="fa-brands fa-twitter text-secondary text-2xl"></i>
             </a>
           </li>
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
-              <i class="fa-brands fa-linkedin text-secondary text-2xl"></i>
+              <i className="fa-brands fa-linkedin text-secondary text-2xl"></i>
             </a>
           </li>
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
-              <i class="fa-brands fa-github text-secondary text-2xl"></i>
+              <i className="fa-brands fa-github text-secondary text-2xl"></i>
             </a>
           </li>
         </ul>

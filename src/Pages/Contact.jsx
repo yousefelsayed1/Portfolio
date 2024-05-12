@@ -1,5 +1,4 @@
 import React from "react";
-import { contactDetails } from "../Details";
 import { styles } from "../styles";
 import contact from "../assets/contact.svg";
 import { useFormik } from "formik";
@@ -56,8 +55,8 @@ function Contact() {
   }
 
   return (
-    <div className="bg-tertiary h-home cotainer mx-auto max-width">
-      <section>
+    <div className="bg-tertiary min-h-screen ">
+      <section className="cotainer mx-auto max-width">
         <div className="heading pb-5">
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>

@@ -43,7 +43,7 @@ function Home() {
                 duration: 2,
                 ease: "easeInOut",
               }}
-              className="mt-10 bg-gradient rounded-xl p-0.5 w-fit"
+              className="mt-10 bg-sky-500 rounded-xl p-0.5 w-fit"
             >
               <button
                 type="button"

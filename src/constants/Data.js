@@ -1,27 +1,31 @@
-import logo from "../assets/logo.png";
-import profile from "../assets/profile.jpg";
-
-import html from "../assets/techstack/html.png";
-import css from "../assets/techstack/css.png";
-import sass from "../assets/techstack/sass.png";
-import js from "../assets/techstack/js.png";
-import react from "../assets/techstack/react.png";
-import redux from "../assets/techstack/redux.png";
-import tailwind from "../assets/techstack/tailwind.png";
-import bootstrap from "../assets/techstack/bootstrap.png";
-import vscode from "../assets/techstack/vscode.png";
-import github from "../assets/techstack/github.png";
-import git from "../assets/techstack/git.png";
-import npm from "../assets/techstack/npm.png";
-import postman from "../assets/techstack/postman.png";
-import figma from "../assets/techstack/figma.png";
-
-import projectImage1 from "../assets/projects/project1.jpg";
-import projectImage2 from "../assets/projects/project2.jpg";
-import projectImage3 from "../assets/projects/project3.jpg";
-import projectImage4 from "../assets/projects/project4.jpg";
-import projectImage5 from "../assets/projects/project5.jpg";
-import projectImage6 from "../assets/projects/project6.jpg";
+import {
+  logo,
+  profile,
+  html,
+  css,
+  sass,
+  js,
+  react,
+  redux,
+  tailwind,
+  bootstrap,
+  vscode,
+  github,
+  git,
+  npm,
+  postman,
+  figma,
+  tech1,
+  tech2,
+  tech3,
+  tech4,
+  projectImage1,
+  projectImage2,
+  projectImage3,
+  projectImage4,
+  projectImage5,
+  projectImage6,
+} from "../assets";
 
 export const logos = {
   logo: logo,
@@ -35,10 +39,6 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "technologies",
-    title: "Technologies",
   },
   {
     id: "projects",
@@ -169,5 +169,48 @@ export const projectDetails = [
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://yousefelsayed1.github.io/Quote-of-the-day/",
     githubLink: "https://github.com/yousefelsayed1/Quote-of-the-day.git",
+  },
+];
+
+export const experiences = [
+  {
+    title: "React.js",
+    icon: tech1,
+    iconBg: "#383E56",
+    points: [
+      "I create responsive and interactive UIs using React component-based architecture, ensuring a seamless user experience.",
+      "Experienced in tuning React applications for optimal performance, utilizing React built-in tools and best practices to minimize re-renders and optimize component updates.",
+      "Committed to maintaining high code quality, with a focus on writing clean, testable, and maintainable code.",
+    ],
+  },
+  {
+    title: "Tailwind",
+    icon: tech2,
+    iconBg: "#E6DEDD",
+    points: [
+      "I have embraced the utility-first philosophy of Tailwind CSS, which has streamlined my workflow and allowed me to build interfaces with speed and precision.",
+      "I have utilized Tailwind configuration file to extend the framework with custom themes and utilities, aligning the design with brand guidelines.",
+      "I have implemented best practices such as using the @apply directive and PurgeCSS to keep the stylesheet size minimal and performance optimized.",
+    ],
+  },
+  {
+    title: "Framer motion",
+    icon: tech3,
+    iconBg: "#383E56",
+    points: [
+      " I have utilized Framer Motion intuitive animation logic to bring complex user interfaces to life, making them more engaging and interactive.",
+      " I have used Framer Motion to create smooth and creative page transitions, improving the flow and narrative of the user journey.",
+      " I have customized easing and timing to match the brand style and feel, creating a unique motion design language.",
+    ],
+  },
+  {
+    title: "Redux",
+    icon: tech4,
+    iconBg: "#E6DEDD",
+    points: [
+      "Proficient in managing application state using Redux, ensuring predictable state transitions and centralized data handling.",
+      "Experienced in designing reducers and crafting actions to handle complex state changes in a scalable and maintainable way.",
+      "Applied best practices for performance optimization, such as memoization and selectors to compute derived data, minimizing unnecessary re-renders",
+    ],
   },
 ];

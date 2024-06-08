@@ -28,6 +28,15 @@ import projectImage4 from "./projects/project4.jpg";
 import projectImage5 from "./projects/project5.jpg";
 import projectImage6 from "./projects/project6.jpg";
 
+import scroll1 from "./scroll/icons8-html-5.svg";
+import scroll2 from "./scroll/icons8-css3.svg";
+import scroll3 from "./scroll/icons8-javascript.svg";
+import scroll4 from "./scroll/icons8-react.svg";
+import scroll5 from "./scroll/icons8-redux.svg";
+import scroll6 from "./scroll/icons8-tailwind-css.svg";
+import scroll7 from "./scroll/icons8-bootstrap.svg";
+import scroll8 from "./scroll/icons8-vs-code.svg";
+
 export {
   logo,
   profile,
@@ -55,4 +64,12 @@ export {
   projectImage4,
   projectImage5,
   projectImage6,
+  scroll1,
+  scroll2,
+  scroll3,
+  scroll4,
+  scroll5,
+  scroll6,
+  scroll7,
+  scroll8,
 };

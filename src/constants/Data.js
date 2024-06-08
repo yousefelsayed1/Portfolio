@@ -25,6 +25,14 @@ import {
   projectImage4,
   projectImage5,
   projectImage6,
+  scroll1,
+  scroll2,
+  scroll3,
+  scroll4,
+  scroll5,
+  scroll6,
+  scroll7,
+  scroll8,
 } from "../assets";
 
 export const logos = {
@@ -119,6 +127,17 @@ export const techTolls = [
   { id: 4, icon: git, name: "git" },
   { id: 5, icon: github, name: "github" },
   { id: 6, icon: figma, name: "figma" },
+];
+
+export const techScrollDetails = [
+  { id: 1, icon: scroll1, name: "html" },
+  { id: 2, icon: scroll2, name: "css" },
+  { id: 3, icon: scroll3, name: "js" },
+  { id: 4, icon: scroll4, name: "react" },
+  { id: 5, icon: scroll5, name: "redux" },
+  { id: 6, icon: scroll6, name: "tailwind" },
+  { id: 7, icon: scroll7, name: "bootstrap" },
+  { id: 8, icon: scroll8, name: "vscode" },
 ];
 
 export const projectDetails = [

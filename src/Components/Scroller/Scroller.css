@@ -38,11 +38,11 @@
 }
 
 .item {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 6px;
   position: absolute;
-  left: max(calc(100px * 8), 100%);
+  left: max(calc(80px * 8), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;

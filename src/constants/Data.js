@@ -167,28 +167,12 @@ export const projectDetails = [
   },
   {
     id: 4,
-    title: "Drug-Eye Crud website",
-    image: projectImage2,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://yousefelsayed1.github.io/Drug-Eye/",
-    githubLink: "https://github.com/yousefelsayed1/Drug-Eye",
-  },
-  {
-    id: 5,
     title: "Coffee Heaven website",
     image: projectImage3,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://yousefelsayed1.github.io/coffee-heaven/",
     githubLink: "https://github.com/yousefelsayed1/coffee-heaven",
-  },
-  {
-    id: 6,
-    title: "Quote of the Day",
-    image: projectImage4,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://yousefelsayed1.github.io/Quote-of-the-day/",
-    githubLink: "https://github.com/yousefelsayed1/Quote-of-the-day.git",
-  },
+  }
 ];
 
 export const experiences = [

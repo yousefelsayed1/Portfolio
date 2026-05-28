@@ -71,7 +71,7 @@ function Home() {
           <img
             className="profile w-4/5 md:w-full md:ml-auto mx-auto rounded-full bg-gradient p-2"
             src={personalDetails.img}
-            alt="youssef image"
+            alt="youssef Elsayed"
             loading="lazy"
           />
         </motion.div>

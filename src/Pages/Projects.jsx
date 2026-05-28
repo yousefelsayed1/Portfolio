@@ -17,7 +17,7 @@ function Projects() {
               >
                 <img
                   src={image}
-                  alt="project image"
+                  alt="project photo"
                   loading="lazy"
                   className="rounded-lg w-full"
                 />
@@ -32,6 +32,7 @@ function Projects() {
                       <a
                         href={previewLink}
                         target="_blank"
+                        rel="noreferrer"
                         className="underline pl-2 font-light text-white"
                       >
                         Live Preview
@@ -42,6 +43,7 @@ function Projects() {
                       <a
                         href={githubLink}
                         target="_blank"
+                        rel="noreferrer"
                         className="underline pl-2 font-light text-white"
                       >
                         View Code

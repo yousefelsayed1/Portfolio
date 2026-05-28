@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { motion } from "framer-motion";
 import { experiences } from "../constants/Data";
 
 const ExperienceCard = ({ experience }) => {

@@ -17,7 +17,7 @@ function Projects() {
               >
                 <img
                   src={image}
-                  alt="project photo"
+                  alt="project"
                   loading="lazy"
                   className="rounded-lg w-full"
                 />

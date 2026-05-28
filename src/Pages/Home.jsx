@@ -13,6 +13,7 @@ function Home() {
       <section
         className={`container mx-auto max-w-[90%] min-h-screen md:flex justify-between items-center gap-24`}
       >
+        <div className="flex flex-row items-start gap-5 md:mb-0 mb-20">
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" />
@@ -48,12 +49,15 @@ function Home() {
               </button>
             </motion.div>
           </div>
+          </div>
+        <div className="mt-5 md:mt-0">
           <img
             className="profile w-4/5 md:w-full md:ml-auto mx-auto rounded-full bg-gradient p-2"
             src={personalDetails.img}
             alt="youssef Elsayed"
             loading="lazy"
           />
+        </div>
       </section>
     </div>
   );
